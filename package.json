@@ -1,0 +1,24 @@
+{
+  "name": "advent-of-code-2015",
+  "description": "JS solutions to http://adventofcode.com/2015",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ci:test": "jest --coverage && codecov",
+    "start": "node ./",
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mraxus/advent-of-code-2015.git"
+  },
+  "author": "mraxus",
+  "bugs": {
+    "url": "https://github.com/mraxus/advent-of-code-2015/issues"
+  },
+  "homepage": "https://github.com/mraxus/advent-of-code-2015#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
